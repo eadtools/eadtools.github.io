@@ -1,0 +1,124 @@
+{
+  "aplicativos": [
+    {
+      "id": 1,
+      "Nome": "Microsft Teams",
+      "Nota": 7,
+      "Dispositivo": [
+        "Computador",
+        "Smartphone"
+      ],
+      "Descrição": "Microsoft Teams é uma plataforma unificada de comunicação e colaboração que combina bate-papo, videoconferências, armazenamento de arquivos e integração de aplicativos no local de trabalho.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
+      "video": "https://www.youtube.com/watch?v=E2ipW_6eW7I",
+      "funcionalidades": [
+        1,
+        2,
+        3
+      ],
+      "local": "https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software",
+      "dicas:": "O Microsoft Teams é muito útil para a divisão de grupos, contando com a ferramenta de dividir a turma em grupos numa mesma sala e monitorar cada um.",
+      "comentarios": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "Nome": "Google Classroom",
+      "Nota": 6,
+      "Dispositivo": [
+        "Computador",
+        "Smartphone"
+      ],
+      "Descrição": "Google Classroom é um sistema de gerenciamento de conteúdo para escolas que procuram simplificar a criação, a distribuição e a avaliação de trabalhos. Ele é um recurso do Google Apps para a área de educação.",
+      "img": "https://www.makerzine.com.br/wp-content/uploads/2019/08/google_classroom_icon-1.png",
+      "video": "https://www.youtube.com/watch?v=7kCsZ-nOknk",
+      "funcionalidades": [
+        10,
+        11,
+        12
+      ],
+      "local": "https://classroom.google.com/",
+      "dicas:": "O Google Classroom é muito utilizado para a criação e postagem de atividades co  facilidade.",
+      "comentarios": [
+        14,
+        15,
+        16
+      ],
+      "id": 2
+    },
+    {
+      "Nome": "Zoom",
+      "Nota": 8,
+      "Dispositivo": [
+        "Computador",
+        "Smartphone"
+      ],
+      "Descrição": "Zoom é um programa de software proprietário de videotelefonia desenvolvido pela Zoom Video Communications.",
+      "img": "https://img.icons8.com/color/452/zoom.png",
+      "video": "https://www.youtube.com/watch?v=t6zrzrMbmo8",
+      "funcionalidades": [
+        20,
+        21,
+        22
+      ],
+      "local": "https://zoom.us/download",
+      "dicas:": "O Zoom é um dos melhores aplicativos para videochamadas, a ferramenta de transmitir tela é muito útil.",
+      "comentarios": [
+        24,
+        25,
+        26
+      ],
+      "id": 3
+    },
+    {
+      "Nome": "Loom",
+      "Nota": 5,
+      "Dispositivo": [
+        "Computador",
+        "Smartphone"
+      ],
+      "Descrição": "Loom é uma plataforma que permite de forma rápida que você grave a tela do seu computador e sua imagem da webcam, e compartilhar esse vídeo em poucos segundos. Ele também permite cortes e edições simples.",
+      "img": "https://media.glassdoor.com/sqll/1684785/loom-squareLogo-1614885965063.png",
+      "video": "https://www.youtube.com/watch?v=fUuTRRUV6AI",
+      "funcionalidades": [
+        30,
+        31,
+        32
+      ],
+      "local": "https://www.loom.com/",
+      "dicas:": "O Loom é muito útil para gravar vídeos rápidos e curtos, sem precisar subí-los no YouTube ou Google Drive para compartilhá-los.",
+      "comentarios": [
+        34,
+        35,
+        36
+      ],
+      "id": 4
+    },
+    {
+      "Nome": "AprendiZap",
+      "Nota": 7,
+      "Dispositivo": [
+        "Computador",
+        "Smartphone"
+      ],
+      "Descrição": "Conteúdos e exercícios via Whatsapp, promovida pela Fundação 1Bi com a Fundação Lemann e a Imaginable Futures.",
+      "img": "aprendizap.png",
+      "video": "https://youtu.be/e4PEjcUyhIA",
+      "funcionalidades": [
+        40,
+        41,
+        42
+      ],
+      "local": "https://www.aprendizap.com.br/",
+      "dicas:": "O AprendiZap é útil para conseguir questões e compartilhar em grupos com seus alunos.",
+      "comentarios": [
+        44,
+        45,
+        46
+      ],
+      "id": 5
+    }
+  ]
+}
