@@ -176,3 +176,15 @@ span{
     }
 
 }
+
+#login_page{
+    background-color: #217336;
+}
+
+#login{
+    padding-top: 20%;
+}
+
+#bnt_newuser{
+    padding-right: 50px;
+}
