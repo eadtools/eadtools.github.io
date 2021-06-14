@@ -1,12 +1,20 @@
 function exibeApp(){
     let rowApp = document.getElementById('colApp');
     let texto = '';
-
-    let dados = JSON.parse(this.responseText);
-    for (i=0; i<dados.aplicativos.length;i++){
-        let app = dados.aplicativos[i];
+    let dadosp = JSON.parse(this.responseText);
+    dadosp = dadosp.aplicativos;
+    let filtroNota = document.getElementById('filtroNota');
+    let filtroCategoria = document.getElementById('filtroCategoria');
+    let filtroDispositivo = document.getElementById('filtroDispositivo');
+    let filtroPago = document.getElementById('filtroPago');
+    let dados = dadosp.filter(item => item.Nota > filtroNota.options[filtroNota.selectedIndex].value);
+    dados = dados.filter(item => item.Dispositivo.includes(filtroDispositivo.options[filtroDispositivo.selectedIndex].value));
+    dados = dados.filter(item => item.Categoria.includes(filtroCategoria.options[filtroCategoria.selectedIndex].value));
+    dados = dados.filter(item => item.Pago.includes(filtroPago.options[filtroPago.selectedIndex].value));
+    for (i=0; i<dados.length;i++){
+        let app = dados[i];
         let dispcomplete = '';
-        for(j=1; j<app.Dispositivo.length;j++){
+        for(j=2; j<app.Dispositivo.length;j++){
             dispcomplete = dispcomplete + `/${app.Dispositivo[j]}`;
         }
         texto = texto + `
@@ -19,7 +27,7 @@ function exibeApp(){
             </div>
             <div class="col-md-9 col-12" id="infoapli">
                 <h2>${app.Nome}</h2>
-                <p><span>Dispositivo:</span> ${app.Dispositivo[0]+dispcomplete}</p>
+                <p><span>Dispositivo:</span> ${app.Dispositivo[1]+dispcomplete}</p>
                 <p><span>Descrição:</span> ${app.Descrição}</p>
                 <div class="mb-3">
                     <a class="btn btn-success" href="#" role="button">Ver mais</a>
@@ -32,7 +40,6 @@ function exibeApp(){
 
     rowApp.innerHTML = texto;
 }
-
 
 
 function listarApps (){
