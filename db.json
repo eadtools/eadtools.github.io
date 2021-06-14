@@ -4,9 +4,12 @@
       "id": 1,
       "Nome": "Microsft Teams",
       "Nota": 7,
-      "Dispositivo": [
+      "Categoria": [" ","Videochamada", "Grupo", "Reunioes"],
+      "Dispositivo": [ " ",
         "Computador",
         "Smartphone"
+      ],
+      "Pago": [" ","Gratuito","PVP","Pago"
       ],
       "Descrição": "Microsoft Teams é uma plataforma unificada de comunicação e colaboração que combina bate-papo, videoconferências, armazenamento de arquivos e integração de aplicativos no local de trabalho.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
@@ -27,9 +30,12 @@
     {
       "Nome": "Google Classroom",
       "Nota": 6,
-      "Dispositivo": [
+      "Categoria": [" ","Atividades", "Grupo", "Reunioes"],
+      "Dispositivo": [" ",
         "Computador",
         "Smartphone"
+      ],
+      "Pago": [" ","Gratuito","PVP","Pago"
       ],
       "Descrição": "Google Classroom é um sistema de gerenciamento de conteúdo para escolas que procuram simplificar a criação, a distribuição e a avaliação de trabalhos. Ele é um recurso do Google Apps para a área de educação.",
       "img": "https://www.makerzine.com.br/wp-content/uploads/2019/08/google_classroom_icon-1.png",
@@ -51,9 +57,12 @@
     {
       "Nome": "Zoom",
       "Nota": 8,
-      "Dispositivo": [
+      "Categoria": [" ","Videochamada", "Reunioes"],
+      "Dispositivo": [" ",
         "Computador",
         "Smartphone"
+      ],
+      "Pago": [" ","Gratuito","PVP","Pago"
       ],
       "Descrição": "Zoom é um programa de software proprietário de videotelefonia desenvolvido pela Zoom Video Communications.",
       "img": "https://img.icons8.com/color/452/zoom.png",
@@ -75,9 +84,12 @@
     {
       "Nome": "Loom",
       "Nota": 5,
-      "Dispositivo": [
+      "Categoria": [" ","Gravacao"],
+      "Dispositivo": [" ",
         "Computador",
         "Smartphone"
+      ],
+      "Pago": [" ","Gratuito","PVP","Pago"
       ],
       "Descrição": "Loom é uma plataforma que permite de forma rápida que você grave a tela do seu computador e sua imagem da webcam, e compartilhar esse vídeo em poucos segundos. Ele também permite cortes e edições simples.",
       "img": "https://media.glassdoor.com/sqll/1684785/loom-squareLogo-1614885965063.png",
@@ -99,10 +111,11 @@
     {
       "Nome": "AprendiZap",
       "Nota": 7,
-      "Dispositivo": [
-        "Computador",
+      "Categoria": [" ","Exercicios"],
+      "Dispositivo": [" ",
         "Smartphone"
       ],
+      "Pago": [" ","Gratuito"],
       "Descrição": "Conteúdos e exercícios via Whatsapp, promovida pela Fundação 1Bi com a Fundação Lemann e a Imaginable Futures.",
       "img": "aprendizap.png",
       "video": "https://youtu.be/e4PEjcUyhIA",
