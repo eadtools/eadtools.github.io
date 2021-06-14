@@ -19,7 +19,7 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link" aria-current="page" href="home.html">Home</a>
                       <a class="nav-link active" aria-current="page" href="#">Aplicações</a>
                       <a class="nav-link" aria-current="page" href="#">Saiba mais</a>
                       <a class="nav-link" aria-current="page" href="login.html">Login</a>
@@ -33,17 +33,35 @@
                 <div class="col-12 col-md-2" id="filtros">
                     <h3>Filtros</h3>
                   <div class="filtrosmenu">
-                    <div class="btn-group">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                          exemplo de filtro
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <li><a class="dropdown-item" href="#">Menu item</a></li>
-                          <li><a class="dropdown-item" href="#">Menu item</a></li>
-                          <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        </ul>
-                    </div>
+                    <select class="form-select" id="filtroDispositivo" onChange="listarApps()" aria-label="Dispositivo">
+                      <option value=" ">Todos</option>
+                      <option value="Smartphone">Smartphone</option>
+                      <option value="Computador">Computador</option>
+                      <option value="Navegador">Navegador</option>
+                    </select>
+                    <select class="form-select" id="filtroCategoria" onChange="listarApps()" aria-label="Categoria">
+                      <option value=" ">Todas</option>
+                      <option value="Videochamada">Videochamada</option>
+                      <option value="Anotacoes">Anotações</option>
+                      <option value="Exercicios">Exercícios</option>
+                      <option value="Gravacao">Gravação</option>
+                      <option value="Atividades">Atividades</option>
+                      <option value="Grupo">Grupo</option>
+                      <option value="Reunioes">Reuniões</option>
+                    </select>
+                    <select class="form-select" id="filtroPago" onChange="listarApps()" aria-label="Pago">
+                      <option value=" ">Todas</option>
+                      <option value="Gratuito">Gratuito</option>
+                      <option value="Pago">Pago</option>
+                      <option value="PVP">Gratuito, mas possui versão paga</option>
+                    </select>
+                    <select class="form-select" id="filtroNota" onChange="listarApps()" aria-label="Nota">
+                      <option value="0">0+</option>
+                      <option value="4">5+</option>
+                      <option value="6">7+</option>
+                    </select>
                   </div>
+                  
                 </div>
                 <div class="col" id="colApp">
                     <div class="applicativo">
