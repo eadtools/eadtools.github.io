@@ -1,6 +1,7 @@
 function exibeApp(){
     let rowApp = document.getElementById('colApp');
     let texto = '';
+    let pesquisa = document.getElementById('pesquisa_app');
     let dadosp = JSON.parse(this.responseText);
     dadosp = dadosp.aplicativos;
     let filtroNota = document.getElementById('filtroNota');
@@ -11,6 +12,9 @@ function exibeApp(){
     dados = dados.filter(item => item.Dispositivo.includes(filtroDispositivo.options[filtroDispositivo.selectedIndex].value));
     dados = dados.filter(item => item.Categoria.includes(filtroCategoria.options[filtroCategoria.selectedIndex].value));
     dados = dados.filter(item => item.Pago.includes(filtroPago.options[filtroPago.selectedIndex].value));
+    if(pesquisa.value != ""){
+        dados = dados.filter(item => item.Nome.includes(pesquisa.value));
+    }
     for (i=0; i<dados.length;i++){
         let app = dados[i];
         let dispcomplete = '';
@@ -41,6 +45,31 @@ function exibeApp(){
     rowApp.innerHTML = texto;
 }
 
+function initApp(){
+    let rowApp = document.getElementById('itemsdocar');
+    let texto = '';
+    let dadosp = JSON.parse(this.responseText);
+    dados = dadosp.aplicativos;
+    for (i=0; i<4;i++){
+        let app = dados[i];
+        texto = texto + `
+            <div class="col-sm-3">
+
+            <div class="card">
+            <div class="card-body">
+                <img src="${app.img}" height="100" width="100" alt="">
+                <h5 class="card-title">${app.Nome}</h5>
+                <p class="card-text"><span>Descrição:</span> ${app.Descrição} <br><span>
+                    Nota:</span> ${app.Nota}/10</p>
+                <a href="#" class="btn btn-success">Ver</a>
+            </div>
+            </div>
+        </div>
+        `;
+    };
+
+    rowApp.innerHTML = texto;
+}
 
 function listarApps (){
     let xhr = new XMLHttpRequest ();
@@ -49,4 +78,12 @@ function listarApps (){
     xhr.send();
 }
 
+function destaqueApps (){
+    let xhr2 = new XMLHttpRequest ();
+    xhr2.onload = initApp;
+    xhr2.open('GET','db.json');
+    xhr2.send();
+}
+
 document.onload = listarApps();
+document.onload = destaqueApps();
