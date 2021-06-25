@@ -48,6 +48,12 @@ a:hover{
 
 /*-----------------------*/
 
+
+.invisible{
+    display: none;
+    visibility: hidden;
+}
+
 .btn:hover{
     background-color: #1E452C;
 }
@@ -56,6 +62,7 @@ a:hover{
     color: white;
     font-family: 'Alata',sans-serif;
     padding: 40px;
+    margin-top: 85px;
     font-size: 35px;
 
 }
@@ -67,12 +74,8 @@ a:hover{
 
 }
 
-#initlado2{
-    padding: 40px;
-}
-
 #imagemi{
-    padding-left: 60px;
+    padding-left: 50px;
     width: min-content;
 }
 
@@ -129,6 +132,10 @@ span{
     min-width: min-content;
 }
 
+.form-select, #pesquisa_app{
+    margin-top: 5px;
+}
+
 #app{
     padding: 40px;
     padding-bottom: 0px;
@@ -160,6 +167,8 @@ span{
     margin-top: 5px;
     border: 1px solid rgb(255, 255, 255);
 }
+
+
 
 @media (max-width:500px){
     #filtros{
