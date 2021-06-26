@@ -124,6 +124,17 @@ span{
 
 /*-----------------------*/
 
+.appinfo_apppage{
+    text-align: center;
+}
+.appinfo_apppage>h2,.appinfo_apppage>p{
+    padding: 4px;
+}
+
+iframe{
+    padding: 15px;
+}
+
 #filtros{
     padding: 40px;
     background-color: #217336;
