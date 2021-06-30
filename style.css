@@ -1,6 +1,5 @@
 body{
     margin-top: 80px;
-    max-height: 100%;
     background-color: #89f060;
     color: #14261A;
 }
@@ -139,12 +138,18 @@ iframe{
     padding: 40px;
     background-color: #217336;
     color: white;
-    height: 235vh;
+    min-height: 100vh;
     min-width: min-content;
 }
 
+#labelfil{
+    padding: 0px;
+
+}
+
 .form-select, #pesquisa_app{
-    margin-top: 5px;
+    margin-top: -10px;
+    margin-bottom: 5px;
 }
 
 #app{
@@ -179,7 +184,16 @@ iframe{
     border: 1px solid rgb(255, 255, 255);
 }
 
-
+#commentarea>textarea{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#commentarea>.btn-success{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
 
 @media (max-width:500px){
     #filtros{
