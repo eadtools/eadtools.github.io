@@ -132,7 +132,6 @@ function AppPage(id2){
                             <div class="navbar-nav">
                               <a class="nav-link" aria-current="page" href="index.html">Home</a>
                               <a class="nav-link active" aria-current="page" href="apli.html">Aplicações</a>
-                              <a class="nav-link" aria-current="page" href="#">Saiba mais</a>
                               <a class="nav-link" aria-current="page" id="loglink" href="login.html">Login</a>
                             </div>
                           </div>
