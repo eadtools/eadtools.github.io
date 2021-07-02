@@ -159,7 +159,7 @@ function AppPage(id2){
                                     ${app.video}
                                     <h3>Onde encontrar</h3>
                                     <p>Vá para a página da aplicação clicando aqui: <a href="${app.local}">${app.local}</a></p>
-                                    <h3>Dicas de uso</h3>
+                                    <h3>Recursos</h3>
                                     <p>${app.dica}</p>
                                     <div class="row" id="commentarea">
                                     <h3>Comentários</h3>
@@ -241,7 +241,19 @@ var usuarioCorrente = {};
 const commentsIniciais = {
     comentarios: [
         { "id": 14, "id_app": 1, "autor": "Ana Paula K.", "texto": "O melhor aplicativo que utilizei até agora. Muito útil para dividir as turmas em grupos, com a função de canais separados."},
-        { "id": 16, "id_app": 1, "autor": "Roberto Mancini", "texto": "Um bom aplicativo. Recomendo que se utilize a versão para desktop, pois trava menos."},
+        { "id": 16, "id_app": 1, "autor": "Roberto Mancine", "texto": "Um bom aplicativo. Recomendo que se utilize a versão para desktop, pois trava menos."},
+        { "id": 26, "id_app": 2, "autor": "Giuseppe Guardiola", "texto": "Uma ótima plataforma para postar atividades para os alunos."},
+        { "id": 36, "id_app": 2, "autor": "Giordana Esperandio", "texto": "Fácil de usar, mas não gostei que ele não tem reuniões no app, as chamadas abrem no Meet."},
+        { "id": 16, "id_app": 3, "autor": "Adriana Gaudino", "texto": "Estou sempre usando esse aplicativo para as aulas, é o mais leve para o meu computador."},
+        { "id": 16, "id_app": 3, "autor": "José Mourim", "texto": "Achei muito complicado. Não cabem quantas pessoas eu quero colocar."},
+        { "id": 16, "id_app": 4, "autor": "Sylvio Mendes", "texto": "Muito bom. Só evito passar dos 5 minutos de vídeo, para não quer que cortar em dois, nem pagar."},
+        { "id": 16, "id_app": 4, "autor": "Alessandra Kirmse", "texto": "Assinei a versão paga, o aplicativo melhorou muito. A edição não é muito boa, mas ele realmente serve para gravar coisas simples."},
+        { "id": 16, "id_app": 5, "autor": "Luís Felipe", "texto": "Recebi muitos exercícios bons."},
+        { "id": 16, "id_app": 6, "autor": "Angela Alves", "texto": "O app é muito bom para chamadas, o único problema é que para os iPads ou tablets o meet não atualiza o layout é horrível para tablet!"},
+        { "id": 16, "id_app": 6, "autor": "Ramon Menezes", "texto": "Acho que o app poderia dar algumas opções como por exemplo: usar como web Cam no Pc, configurar a qualidade da câmera e configuração que melhorasse o áudio gando de entrada como de saída."},
+        { "id": 16, "id_app": 7, "autor": "Bruno Formiga", "texto": "Vários recursos interessantes, mesmo que o layout pareça meio bagunçado."},
+        { "id": 16, "id_app": 7, "autor": "Isabella Pagliari", "texto": "Amei! Textos suuuuuper legais e várias aulas."},
+        { "id": 16, "id_app": 8, "autor": "Joel Santana", "texto": "Bacana, uma pena que só tem em inglês."},
     ]
 };
 
