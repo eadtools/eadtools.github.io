@@ -2,7 +2,7 @@
   "aplicativos": [
     {
       "id": 1,
-      "Nome": "Microsft Teams",
+      "Nome": "Microsoft Teams",
       "Nota": 7,
       "Categoria": [" ","Videochamada", "Grupo", "Reunioes"],
       "Dispositivo": [ " ",
